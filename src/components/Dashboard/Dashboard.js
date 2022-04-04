@@ -46,9 +46,8 @@ const Dashboard = () => {
         <div className='dashboard'>
             <div>
                 <LineChart width={700} height={500} data={data}>
-                <Line dataKey='revenue' type="monotone" stroke="#8884d8" activeDot={{ r: 8 }}></Line>
+                <Line dataKey='revenue' type="monotone" stroke="#ffaf03" activeDot={{ r: 8 }}></Line>
                 <Line dataKey='investment' type="monotone" stroke="#8884d8" activeDot={{ r: 8 }}></Line>
-                <Line dataKey='sell' type="monotone" stroke="#8884d8" activeDot={{ r: 8 }}></Line>
                 <XAxis dataKey='month' />
                 <YAxis></YAxis>
                 <Tooltip />
