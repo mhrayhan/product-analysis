@@ -18,11 +18,14 @@ const Home = () => {
                     <h4>DJI Air 2S</h4>
                 </div>
             </div>
-                <h2 >Customer Says</h2>
+                <h2 className='customer-says'>Customer Says</h2>
             <div className='reviews-container'>
                 {
-                reviews.slice(0, 3).map(review => <div className='reviews'>
-                    <h5>{review.name}</h5> <p>{review.review}</p> <p>Ratings: {review.ratings}</p>
+                reviews.slice(0, 3).map(review => 
+                <div className='reviews'>
+                    <h5>{review.name}</h5> 
+                    <p>{review.review}</p> 
+                    <p>Ratings: {review.ratings} star</p>
                 </div>)
                 }
             </div>

@@ -7,7 +7,7 @@ const Review = (props) => {
             <div className='review'>
                     <h3>{name}</h3> 
                     <p>{review}</p> 
-                    <p>Ratings: {ratings}</p>
+                    <p>Ratings: {ratings} star</p>
             </div>
         </div>
     );
