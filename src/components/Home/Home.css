@@ -9,7 +9,7 @@
 }
 .home h1{
     font-size: 3em;
-    color: rgb(56, 56, 56);
+    color: orange;
 }
 .home p{
     font-size: 18px;
@@ -43,13 +43,20 @@
     font-size: 1.2em;
     border: none;
     border-radius: 5px;
+    background-color: orange;
+    color: #fff;
+    box-shadow: 1px 1px 10px rgba(40, 40, 40, 0.232);
+}
+.review-btn:hover{
     background-color: #fff;
     color: orange;
-    box-shadow: 1px 1px 10px rgba(40, 40, 40, 0.232);
+    transition: all .5s;
+    box-shadow: 1px 1px 10px rgba(255, 166, 0, 0.574);
 }
 .customer-says{
     font-size: 2em;
     border-bottom: 3px solid;
     display: inline-block;
     padding-bottom: 5px;
+    color: orange;
 }
