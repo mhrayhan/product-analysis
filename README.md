@@ -1,6 +1,6 @@
 <h2>My Review Site</h2>
 
-[Assignment-09 Live Site](/mh-ass-09.netlify.app/)
+[Assignment-09 Live Site](https://mh-ass-09.netlify.app/)
 
 https://mh-ass-09.netlify.app/
 
